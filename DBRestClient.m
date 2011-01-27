@@ -344,8 +344,18 @@ DBErrorCode addFileUploadToRequest(NSMutableURLRequest *urlRequest, NSString *fi
 {
     // Create input stream
     CFUUIDRef uuid = CFUUIDCreate(NULL);
-    NSString* stringBoundary = [(NSString*)CFUUIDCreateString(NULL, uuid) autorelease];
+    NSString* stringBoundary = (NSString*)CFUUIDCreateString(NULL, uuid);
     CFRelease(uuid);
+
+    /* This ensures that it workes in a GC environment.
+     *
+     * Under GC, retain/autorelease are no-ops, and CFRelease will
+     *  leave the object up to the garbage collector.
+     * Under non-GC, we'll refcount it to 2, put it in an autorelease
+     *  pool, then reduce the current refcount to 1.
+     */
+    [[stringBoundary retain] autorelease];
+    CFRelease(stringBoundary);
 
     NSString* contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@",stringBoundary];
     [urlRequest addValue:contentType forHTTPHeaderField: @"Content-Type"];
@@ -755,7 +765,17 @@ DBErrorCode addFileUploadToRequest(NSMutableURLRequest *urlRequest, NSString *fi
                                                             (CFStringRef)@":?=,!$&'()*+;[]@#~",
                                                             encoding);
     
-    return [escapedPath autorelease];
+    /* This ensures that it workes in a GC environment.
+     *
+     * Under GC, retain/autorelease are no-ops, and CFRelease will
+     *  leave the object up to the garbage collector.
+     * Under non-GC, we'll refcount it to 2, put it in an autorelease
+     *  pool, then reduce the current refcount to 1.
+     */
+    [[escapedPath retain] autorelease];
+    CFRelease((CFURLRef)escapedPath);
+
+    return escapedPath;
 }
 
 
