@@ -31,6 +31,7 @@ interface users might "recognize", if they've used other Dropbox-powered
 applications.
 
 The interface looks like this, at the time of writing:
+
 ![Linking account to your app][5]
 ![Creating a new Dropbox account][6]
 
