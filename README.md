@@ -15,8 +15,8 @@ before even starting your project, asking if they'll allow you to use the API.
 Most of the code is verbatim copied from the most recent (at the time of
 writing) iOS SDK, [v0.2][3]. The new code resides in two places:
 
- * *Examples/* This contains example code that uses DropboxFramework.
- * *UI/* This contains code that manages the user interface.
+ * **Examples/** This contains example code that uses DropboxFramework.
+ * **UI/** This contains code that manages the user interface.
 
 In addition, the Resources/ directory contains all new graphical user
 interfaces. This is the main point of DropboxFramework: A standard, clean user
@@ -26,4 +26,4 @@ to create a new account if they do not already have one.
 [1]: http://www.dropbox.com/developers/releases "Dropbox SDKs"
 [2]: http://www.dropbox.com/ "Dropbox"
 [3]: http://www.dropbox.com/static/developers/dropbox-iphone-sdk-0.2.tar.gz "Objective-C/iOS SDK v0.2"
-[4]: api-program@dropbox.com "API Program"
+[4]: mailto:api-program@dropbox.com "API Program"
