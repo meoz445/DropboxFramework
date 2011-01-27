@@ -88,6 +88,8 @@
 		8EBF5C1D12F2314F0051DBFA /* DBAccountCreation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF5C1C12F2314F0051DBFA /* DBAccountCreation.xib */; };
 		8EBF5C1F12F2315A0051DBFA /* DBLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF5C1E12F2315A0051DBFA /* DBLogin.xib */; };
 		8EBF5C2112F231610051DBFA /* DBTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF5C2012F231610051DBFA /* DBTest.xib */; };
+		8EBF5C2512F232EB0051DBFA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF5C2412F232EB0051DBFA /* Localizable.strings */; };
+		8EBF5C5312F239BF0051DBFA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF5C5212F239BF0051DBFA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +191,8 @@
 		8E6F323112E2DFF70028A6EE /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DBLogin.xib; sourceTree = "<group>"; };
 		8E6F323712E2E5A90028A6EE /* DBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBLoginController.h; sourceTree = "<group>"; };
 		8E6F323812E2E5A90028A6EE /* DBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoginController.m; sourceTree = "<group>"; };
+		8EBF5C2212F232E20051DBFA /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8EBF5C5012F239B90051DBFA /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -254,6 +258,7 @@
 				8EBF5C1E12F2315A0051DBFA /* DBLogin.xib */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
 				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+				8EBF5C5212F239BF0051DBFA /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -324,8 +329,9 @@
 		8E04A5A612E3AC1800EEFE0C /* DBTest */ = {
 			isa = PBXGroup;
 			children = (
-				8E04A40212E37B5D00EEFE0C /* Info.plist */,
 				8EBF5C2012F231610051DBFA /* DBTest.xib */,
+				8E04A40212E37B5D00EEFE0C /* Info.plist */,
+				8EBF5C2412F232EB0051DBFA /* Localizable.strings */,
 			);
 			path = DBTest;
 			sourceTree = "<group>";
@@ -538,6 +544,7 @@
 				8E6F31F512E2DDF20028A6EE /* db_logo@2x.png in Resources */,
 				8EBF5C1F12F2315A0051DBFA /* DBLogin.xib in Resources */,
 				8EBF5C1D12F2314F0051DBFA /* DBAccountCreation.xib in Resources */,
+				8EBF5C5312F239BF0051DBFA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EBF5C2112F231610051DBFA /* DBTest.xib in Resources */,
+				8EBF5C2512F232EB0051DBFA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +649,22 @@
 				8E04A40D12E37BC000EEFE0C /* English */,
 			);
 			name = DBTest.xib;
+			sourceTree = "<group>";
+		};
+		8EBF5C2412F232EB0051DBFA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBF5C2212F232E20051DBFA /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8EBF5C5212F239BF0051DBFA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBF5C5012F239B90051DBFA /* English */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

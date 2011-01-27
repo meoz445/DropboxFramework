@@ -57,11 +57,11 @@
 {
     if ([[DBSession sharedSession] isLinked])
     {
-        [linkButton setTitle:@"Unlink"];
+        [linkButton setTitle:NSLocalizedString(@"Unlink", @"Unlink button")];
     }
     else
     {
-        [linkButton setTitle:@"Link"];
+        [linkButton setTitle:NSLocalizedString(@"Link", @"Link button")];
     }    
 }
 

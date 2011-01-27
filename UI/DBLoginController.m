@@ -78,13 +78,15 @@
 {
     if ([[username stringValue] length] == 0)
     {
-        [self errorWithTitle:@"Email Required" message:@"Please enter your email."];
+        [self errorWithTitle:DBLocalizedString(@"Email Required", @"Error panel title in login window when user does not input an e-mail")
+                     message:DBLocalizedString(@"Please enter your email.", @"Error panel message in login window when user does not input a username")];
         return;
     }
     
     if ([[password stringValue] length] == 0)
     {
-        [self errorWithTitle:@"Password Required" message:@"Please enter you password."];
+        [self errorWithTitle:DBLocalizedString(@"Password Required", @"Error panel title in login window when user does not input a password")
+                     message:DBLocalizedString(@"Please enter you password.", @"Error panel message in login window when user does not input a username")];
         return;
     }
     
@@ -106,10 +108,10 @@
 
 - (void) restClient:(DBRestClient *)client loginFailedWithError:(NSError *)error
 {
-    NSString* message;
+    NSString* message = DBLocalizedString(@"An unknown error occured.", @"Error panel message in login window when the server returns an error we do not understand");
     if ([error.domain isEqual:NSURLErrorDomain])
     {
-        message = @"There was an error connecting to Dropbox.";
+        message = DBLocalizedString(@"There was an error connecting to Dropbox.", @"Error panel message in login window when we cannot connect to the server");
     }
     else
     {
@@ -123,13 +125,10 @@
             NSDictionary* errorDict = (NSDictionary*)errorResponse;
             message = [errorDict objectForKey:[[errorDict allKeys] objectAtIndex:0]];
         }
-        else
-        {
-            message = @"An unknown error has occurred.";
-        }
     }
 
-    [self errorWithTitle:@"Unable to Login" message:message];
+    [self errorWithTitle:DBLocalizedString(@"Unable to Login", @"Error panel title in signup window when the server returns an error for the login")
+                 message:message];
 }
 
 #pragma mark DBAccountCreationControllerDelegate methods

@@ -1,0 +1,63 @@
+/* 
+   Localizable.strings
+   DropboxFramework
+
+   Created by Jørgen P. Tjernø on 1/27/11.
+   Copyright 2011 devSoft. All rights reserved.
+ */
+/* Error panel title in signup window when the user does not input a first name */
+"First Name Required" = "First Name Required";
+
+/* Error panel message in signup window when the user does not input a first name */
+"Please enter your first name." = "Please enter your first name.";
+
+/* Error panel title in signup window when the user does not input a last name */
+"Last Name Required" = "Last Name Required";
+
+/* Error panel message in signup window when the user does not input a first name */
+"Please enter your last name." = "Please enter your last name.";
+
+/* Error panel title in signup window when the user does not input an e-mail */
+"Email Address Required" = "Email Address Required";
+
+/* Error panel message in signup window when the user does not input an e-mail */
+"Please enter your email address." = "Please enter your email address.";
+
+/* Error panel title in signup window when the user does not input a password
+ * Error panel title in login window when user does not input a password
+ */
+"Password Required" = "Password Required";
+
+/* Error panel message in signup window when the user does not input a password */
+"Please enter your desired password" = "Please enter your desired password";
+
+/* Error panel title in signup window when the user enters two different passwords */
+"Password Mismatch" = "Password Mismatch";
+
+/* Error panel message in signup window when the user enters two different passwords */
+"Your password does not match the verification" = "Your password does not match the verification";
+
+/* Error panel message in signup window when the server returns an error we do not understand.
+ * Error panel message in login window when the server returns an error we do not understand
+ */
+"An unknown error occured." = "An unknown error occured.";
+
+/* Error panel message in signup window when we cannot connect to the server
+ * Error panel message in login window when we cannot connect to the server
+  */
+"There was an error connecting to Dropbox." = "There was an error connecting to Dropbox.";
+
+/* Error panel title in signup window when the server returns an error for the account creation */
+"Create Account Failed" = "Create Account Failed";
+
+/* Error panel title in login window when user does not input an e-mail */
+"Email Required" = "Email Required";
+
+/* Error panel message in login window when user does not input a username */
+"Please enter your email." = "Please enter your email.";
+
+/* Error panel message in login window when user does not input a username */
+"Please enter you password." = "Please enter you password.";
+
+/* Error panel title in signup window when the server returns an error for the login */
+"Unable to Login" = "Unable to Login";

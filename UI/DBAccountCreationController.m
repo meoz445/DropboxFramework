@@ -50,27 +50,32 @@
 {    
     if ([[firstname stringValue] length] == 0)
     {
-        [self errorWithTitle:@"First Name Required" message:@"Please enter your first name."];
+        [self errorWithTitle:DBLocalizedString(@"First Name Required", @"Error panel title in signup window when the user does not input a first name")
+                     message:DBLocalizedString(@"Please enter your first name.", @"Error panel message in signup window when the user does not input a first name")];
         return;
     }
     else if ([[lastname stringValue] length] == 0)
     {
-        [self errorWithTitle:@"Last Name Required" message:@"Please enter your last name."];
+        [self errorWithTitle:DBLocalizedString(@"Last Name Required", @"Error panel title in signup window when the user does not input a last name")
+                     message:DBLocalizedString(@"Please enter your last name.", @"Error panel message in signup window when the user does not input a first name")];
         return;
     }
     else if ([[email stringValue] length] == 0)
     {
-        [self errorWithTitle:@"Email Address Required" message:@"Please enter your email address."];
+        [self errorWithTitle:DBLocalizedString(@"Email Address Required", @"Error panel title in signup window when the user does not input an e-mail")
+                     message:DBLocalizedString(@"Please enter your email address.", @"Error panel message in signup window when the user does not input an e-mail")];
         return;
     }
     else if ([[password stringValue] length] == 0)
     {
-        [self errorWithTitle:@"Password Required" message:@"Please enter your desired password"];
+        [self errorWithTitle:DBLocalizedString(@"Password Required", @"Error panel title in signup window when the user does not input a password")
+                     message:DBLocalizedString(@"Please enter your desired password", @"Error panel message in signup window when the user does not input a password")];
         return;
     }
     else if (![[password stringValue] isEqualToString:[passwordVerify stringValue]])
     {
-        [self errorWithTitle:@"Password Mismatch" message:@"Your password does not match the verification"];
+        [self errorWithTitle:DBLocalizedString(@"Password Mismatch", @"Error panel title in signup window when the user enters two different passwords")
+                     message:DBLocalizedString(@"Your password does not match the verification", @"Error panel message in signup window when the user enters two different passwords")];
         return;
     }
 
@@ -111,9 +116,9 @@
 
 - (void) restClient:(DBRestClient *)client createAccountFailedWithError:(NSError *)error
 {
-    NSString* message = @"An unknown error occured.";
+    NSString* message = DBLocalizedString(@"An unknown error occured.", @"Error panel message in signup window when the server returns an error we do not understand");
     if ([error.domain isEqual:NSURLErrorDomain]) {
-        message = @"There was an error connecting to Dropbox.";
+        message = DBLocalizedString(@"There was an error connecting to Dropbox.", @"Error panel message in signup window when we cannot connect to the server");
     } else {
         NSObject* errorResponse = [[error userInfo] objectForKey:@"error"];
         if ([errorResponse isKindOfClass:[NSString class]]) {
@@ -123,7 +128,8 @@
             message = [errorDict objectForKey:[[errorDict allKeys] objectAtIndex:0]];
         }
     }
-    [self errorWithTitle:@"Create Account Failed" message:message];
+    [self errorWithTitle:DBLocalizedString(@"Create Account Failed", @"Error panel title in signup window when the server returns an error for the account creation")
+                 message:message];
 }
 
 
