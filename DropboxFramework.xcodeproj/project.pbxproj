@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
-		8E04A40E12E37BC000EEFE0C /* DBTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E04A40D12E37BC000EEFE0C /* DBTest.xib */; };
 		8E04A41B12E37C9400EEFE0C /* DBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E04A41A12E37C9400EEFE0C /* DBTest.m */; };
 		8E04A45F12E37FC600EEFE0C /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Dropbox.framework */; };
-		8E04A59C12E3ABF900EEFE0C /* DBAccountCreation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E04A59B12E3ABF900EEFE0C /* DBAccountCreation.xib */; };
 		8E04A5A012E3AC0600EEFE0C /* DBAccountCreationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E04A59E12E3AC0600EEFE0C /* DBAccountCreationController.h */; };
 		8E04A5A112E3AC0600EEFE0C /* DBAccountCreationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E04A59F12E3AC0600EEFE0C /* DBAccountCreationController.m */; };
 		8E04A63C12E3B79500EEFE0C /* DBCommonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E04A63A12E3B79500EEFE0C /* DBCommonController.h */; };
@@ -85,9 +83,11 @@
 		8E6F31F412E2DDF20028A6EE /* db_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F31A812E2DDF20028A6EE /* db_logo.png */; };
 		8E6F31F512E2DDF20028A6EE /* db_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F31A912E2DDF20028A6EE /* db_logo@2x.png */; };
 		8E6F322A12E2DFA50028A6EE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6F322912E2DFA50028A6EE /* Security.framework */; };
-		8E6F323212E2DFF70028A6EE /* DBLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F323112E2DFF70028A6EE /* DBLogin.xib */; };
 		8E6F323912E2E5A90028A6EE /* DBLoginController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F323712E2E5A90028A6EE /* DBLoginController.h */; };
 		8E6F323A12E2E5A90028A6EE /* DBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F323812E2E5A90028A6EE /* DBLoginController.m */; };
+		8EBF5C1D12F2314F0051DBFA /* DBAccountCreation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF5C1C12F2314F0051DBFA /* DBAccountCreation.xib */; };
+		8EBF5C1F12F2315A0051DBFA /* DBLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF5C1E12F2315A0051DBFA /* DBLogin.xib */; };
+		8EBF5C2112F231610051DBFA /* DBTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF5C2012F231610051DBFA /* DBTest.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,10 +110,10 @@
 		8DC2EF5B0486A6940098B216 /* Dropbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dropbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E04A40012E37B5C00EEFE0C /* DBTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E04A40212E37B5D00EEFE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E04A40D12E37BC000EEFE0C /* DBTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DBTest.xib; sourceTree = "<group>"; };
+		8E04A40D12E37BC000EEFE0C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DBTest.xib; sourceTree = "<group>"; };
 		8E04A41912E37C9400EEFE0C /* DBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTest.h; sourceTree = "<group>"; };
 		8E04A41A12E37C9400EEFE0C /* DBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTest.m; sourceTree = "<group>"; };
-		8E04A59B12E3ABF900EEFE0C /* DBAccountCreation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DBAccountCreation.xib; sourceTree = "<group>"; };
+		8E04A59B12E3ABF900EEFE0C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DBAccountCreation.xib; sourceTree = "<group>"; };
 		8E04A59E12E3AC0600EEFE0C /* DBAccountCreationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBAccountCreationController.h; sourceTree = "<group>"; };
 		8E04A59F12E3AC0600EEFE0C /* DBAccountCreationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBAccountCreationController.m; sourceTree = "<group>"; };
 		8E04A63A12E3B79500EEFE0C /* DBCommonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCommonController.h; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 		8E6F31A812E2DDF20028A6EE /* db_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_logo.png; sourceTree = "<group>"; };
 		8E6F31A912E2DDF20028A6EE /* db_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "db_logo@2x.png"; sourceTree = "<group>"; };
 		8E6F322912E2DFA50028A6EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		8E6F323112E2DFF70028A6EE /* DBLogin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DBLogin.xib; sourceTree = "<group>"; };
+		8E6F323112E2DFF70028A6EE /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DBLogin.xib; sourceTree = "<group>"; };
 		8E6F323712E2E5A90028A6EE /* DBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBLoginController.h; sourceTree = "<group>"; };
 		8E6F323812E2E5A90028A6EE /* DBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoginController.m; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -250,8 +250,8 @@
 				8E04A5A612E3AC1800EEFE0C /* DBTest */,
 				8E6F31A812E2DDF20028A6EE /* db_logo.png */,
 				8E6F31A912E2DDF20028A6EE /* db_logo@2x.png */,
-				8E04A59B12E3ABF900EEFE0C /* DBAccountCreation.xib */,
-				8E6F323112E2DFF70028A6EE /* DBLogin.xib */,
+				8EBF5C1C12F2314F0051DBFA /* DBAccountCreation.xib */,
+				8EBF5C1E12F2315A0051DBFA /* DBLogin.xib */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
 				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
 			);
@@ -325,7 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				8E04A40212E37B5D00EEFE0C /* Info.plist */,
-				8E04A40D12E37BC000EEFE0C /* DBTest.xib */,
+				8EBF5C2012F231610051DBFA /* DBTest.xib */,
 			);
 			path = DBTest;
 			sourceTree = "<group>";
@@ -536,8 +536,8 @@
 				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
 				8E6F31F412E2DDF20028A6EE /* db_logo.png in Resources */,
 				8E6F31F512E2DDF20028A6EE /* db_logo@2x.png in Resources */,
-				8E6F323212E2DFF70028A6EE /* DBLogin.xib in Resources */,
-				8E04A59C12E3ABF900EEFE0C /* DBAccountCreation.xib in Resources */,
+				8EBF5C1F12F2315A0051DBFA /* DBLogin.xib in Resources */,
+				8EBF5C1D12F2314F0051DBFA /* DBAccountCreation.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +545,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E04A40E12E37BC000EEFE0C /* DBTest.xib in Resources */,
+				8EBF5C2112F231610051DBFA /* DBTest.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +617,30 @@
 				089C1667FE841158C02AAC07 /* English */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EBF5C1C12F2314F0051DBFA /* DBAccountCreation.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E04A59B12E3ABF900EEFE0C /* English */,
+			);
+			name = DBAccountCreation.xib;
+			sourceTree = "<group>";
+		};
+		8EBF5C1E12F2315A0051DBFA /* DBLogin.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6F323112E2DFF70028A6EE /* English */,
+			);
+			name = DBLogin.xib;
+			sourceTree = "<group>";
+		};
+		8EBF5C2012F231610051DBFA /* DBTest.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E04A40D12E37BC000EEFE0C /* English */,
+			);
+			name = DBTest.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
