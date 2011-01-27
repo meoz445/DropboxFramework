@@ -25,7 +25,6 @@
 @property (nonatomic, retain) DBAccountCreationController *accountCreation;
 
 - (id) init;
-- (void) dealloc;
 
 - (IBAction) createAccount:(id)sender;
 - (IBAction) linkAccount:(id)sender;

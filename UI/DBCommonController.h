@@ -22,8 +22,6 @@
 @property (nonatomic, assign) id<DBCommonControllerDelegate> delegate;
 @property (nonatomic, assign) IBOutlet NSWindow *window;
 
-- (void) dealloc;
-
 - (void) presentFrom:(id)sender;
 - (void) errorWithTitle:(NSString *)title
                 message:(NSString *)message;

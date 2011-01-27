@@ -28,7 +28,6 @@
 @property (nonatomic, assign) IBOutlet NSTextField *passwordVerify;
 
 - (id) init;
-- (void) dealloc;
 
 - (IBAction) createAccount:(id)sender;
 
