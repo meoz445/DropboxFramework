@@ -30,7 +30,15 @@ account if they do not already have one. It is also beneficial to have a user
 interface users might "recognize", if they've used other Dropbox-powered
 applications.
 
+The interface looks like this, at the time of writing:
+![Linking account to your app][5]
+![Creating a new Dropbox account][6]
+
+
 [1]: http://www.dropbox.com/developers/releases "Dropbox SDKs"
 [2]: http://www.dropbox.com/ "Dropbox"
 [3]: http://www.dropbox.com/static/developers/dropbox-iphone-sdk-0.2.tar.gz "Objective-C/iOS SDK v0.2"
 [4]: mailto:api-program@dropbox.com "API Program"
+
+[5]: http://dl.dropbox.com/u/987046/Screenshots/link_account.jpg "Initial linking"
+[6]: http://dl.dropbox.com/u/987046/Screenshots/create_account.jpg "Account creation"
