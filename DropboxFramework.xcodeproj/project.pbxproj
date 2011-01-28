@@ -196,6 +196,8 @@
 		8EBF5C7712F257340051DBFA /* no */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = no; path = no.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8EBF5C7912F2586A0051DBFA /* no */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = no; path = no.lproj/DBAccountCreation.xib; sourceTree = "<group>"; };
 		8EBF5C7B12F259E80051DBFA /* no */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = no; path = no.lproj/DBLogin.xib; sourceTree = "<group>"; };
+		8EBF5C8112F25C1C0051DBFA /* no */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = no; path = no.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8EBF5C8212F25C460051DBFA /* no */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = no; path = no.lproj/DBTest.xib; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -659,6 +661,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8E04A40D12E37BC000EEFE0C /* English */,
+				8EBF5C8212F25C460051DBFA /* no */,
 			);
 			name = DBTest.xib;
 			sourceTree = "<group>";
@@ -667,6 +670,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8EBF5C2212F232E20051DBFA /* English */,
+				8EBF5C8112F25C1C0051DBFA /* no */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
