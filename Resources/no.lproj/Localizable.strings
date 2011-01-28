@@ -1,0 +1,64 @@
+/* 
+   Localizable.strings
+   DropboxFramework
+
+   Created by Jørgen P. Tjernø on 1/27/11.
+   Copyright 2011 devSoft. All rights reserved.
+ */
+ 
+/* Error panel title in signup window when the user does not input a first name */
+"First Name Required" = "Fornavn er påkrevd";
+
+/* Error panel message in signup window when the user does not input a first name */
+"Please enter your first name." = "Vennligst fyll inn fornavnet ditt.";
+
+/* Error panel title in signup window when the user does not input a last name */
+"Last Name Required" = "Etternavn er påkrevd";
+
+/* Error panel message in signup window when the user does not input a first name */
+"Please enter your last name." = "Vennligst fyll inn etternavnet ditt.";
+
+/* Error panel title in signup window when the user does not input an e-mail */
+"Email Address Required" = "E-post-adresse er påkrevd";
+
+/* Error panel message in signup window when the user does not input an e-mail */
+"Please enter your email address." = "Vennligst fyll inn e-post-adressen din.";
+
+/* Error panel title in signup window when the user does not input a password
+ * Error panel title in login window when user does not input a password
+ */
+"Password Required" = "Passord er påkrevd";
+
+/* Error panel message in signup window when the user does not input a password */
+"Please enter your desired password" = "Vennligst fyll inn ditt ønskede passord.";
+
+/* Error panel title in signup window when the user enters two different passwords */
+"Password Mismatch" = "Passordene er ulike";
+
+/* Error panel message in signup window when the user enters two different passwords */
+"Your password does not match the verification" = "Passordet du fyllte inn stemmer ikke med bekreftelsen";
+
+/* Error panel message in signup window when the server returns an error we do not understand.
+ * Error panel message in login window when the server returns an error we do not understand
+ */
+"An unknown error occured." = "En ukjent feil oppstod.";
+
+/* Error panel message in signup window when we cannot connect to the server
+ * Error panel message in login window when we cannot connect to the server
+  */
+"There was an error connecting to Dropbox." = "En feil oppstod under tilkobling til Dropbox.";
+
+/* Error panel title in signup window when the server returns an error for the account creation */
+"Create Account Failed" = "Konto-opprettelse feilet";
+
+/* Error panel title in login window when user does not input an e-mail */
+"Email Required" = "E-post er påkrevd";
+
+/* Error panel message in login window when user does not input a username */
+"Please enter your email." = "Vennligst fyll inn e-posten din.";
+
+/* Error panel message in login window when user does not input a username */
+"Please enter you password." = "Vennligst fyll inn passordet ditt.";
+
+/* Error panel title in signup window when the server returns an error for the login */
+"Unable to Login" = "Kunne ikke logge på";

@@ -193,6 +193,9 @@
 		8E6F323812E2E5A90028A6EE /* DBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoginController.m; sourceTree = "<group>"; };
 		8EBF5C2212F232E20051DBFA /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8EBF5C5012F239B90051DBFA /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8EBF5C7712F257340051DBFA /* no */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = no; path = no.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8EBF5C7912F2586A0051DBFA /* no */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = no; path = no.lproj/DBAccountCreation.xib; sourceTree = "<group>"; };
+		8EBF5C7B12F259E80051DBFA /* no */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = no; path = no.lproj/DBLogin.xib; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -523,6 +526,13 @@
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "DropboxFramework" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				no,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* DropboxFramework */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -631,6 +641,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8E04A59B12E3ABF900EEFE0C /* English */,
+				8EBF5C7912F2586A0051DBFA /* no */,
 			);
 			name = DBAccountCreation.xib;
 			sourceTree = "<group>";
@@ -639,6 +650,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8E6F323112E2DFF70028A6EE /* English */,
+				8EBF5C7B12F259E80051DBFA /* no */,
 			);
 			name = DBLogin.xib;
 			sourceTree = "<group>";
@@ -663,6 +675,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8EBF5C5012F239B90051DBFA /* English */,
+				8EBF5C7712F257340051DBFA /* no */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
