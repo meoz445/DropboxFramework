@@ -5,6 +5,7 @@
    Created by Jørgen P. Tjernø on 1/27/11.
    Copyright 2011 devSoft. All rights reserved.
  */
+ 
 /* Error panel title in signup window when the user does not input a first name */
 "First Name Required" = "First Name Required";
 

@@ -57,11 +57,11 @@
 {
     if ([[DBSession sharedSession] isLinked])
     {
-        [linkButton setTitle:NSLocalizedString(@"Unlink", @"Unlink button")];
+        [linkButton setTitle:NSLocalizedString(@"Unlink", @"Title for button to unlink your Dropbox account")];
     }
     else
     {
-        [linkButton setTitle:NSLocalizedString(@"Link", @"Link button")];
+        [linkButton setTitle:NSLocalizedString(@"Link", @"Title for button to link your Dropbox account")];
     }    
 }
 
