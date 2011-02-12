@@ -6,8 +6,6 @@
 //  Copyright 2011 devSoft. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-
 #import "DBCommonController.h"
 #import "DBRestClient.h"
 

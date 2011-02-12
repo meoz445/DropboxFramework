@@ -7,6 +7,8 @@
  *
  */
 
+#import <AppKit/AppKit.h>
+
 /* Import this file to get the most important header files imported */
 #import "DBSession.h"
 #import "DBRestClient.h"
@@ -15,5 +17,6 @@
 #import "DBQuota.h"
 #import "DBError.h"
 
-#import "UI/DBLoginController.h"
-#import "UI/DBAccountCreationController.h"
+/* UI files. */
+#import "DBLoginController.h"
+#import "DBAccountCreationController.h"

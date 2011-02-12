@@ -6,8 +6,6 @@
 //  Copyright 2011 devSoft. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-
 #import "DBSession.h"
 #import "DBLoginController.h"
 

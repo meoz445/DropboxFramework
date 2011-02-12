@@ -3,6 +3,6 @@
 //
 
 #ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
+    #import <AppKit/AppKit.h>
     #define DBLocalizedString(key, comment) NSLocalizedStringFromTableInBundle(key, nil, [NSBundle bundleWithIdentifier:@"no.devsoft.Dropbox"], comment)
 #endif
