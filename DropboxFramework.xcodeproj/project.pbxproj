@@ -14,7 +14,7 @@
 		8E04A5A112E3AC0600EEFE0C /* DBAccountCreationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E04A59F12E3AC0600EEFE0C /* DBAccountCreationController.m */; };
 		8E04A63C12E3B79500EEFE0C /* DBCommonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E04A63A12E3B79500EEFE0C /* DBCommonController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E04A63D12E3B79500EEFE0C /* DBCommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E04A63B12E3B79500EEFE0C /* DBCommonController.m */; };
-		8E4A1E311307542B0006924C /* Dropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4A1E301307542B0006924C /* Dropbox.h */; };
+		8E4A1E311307542B0006924C /* Dropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4A1E301307542B0006924C /* Dropbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E6124A81307512B00DA90D0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6124A71307512B00DA90D0 /* AppKit.framework */; };
 		8E6F31AA12E2DDF20028A6EE /* DBAccountInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F315A12E2DDF20028A6EE /* DBAccountInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E6F31AB12E2DDF20028A6EE /* DBAccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F315B12E2DDF20028A6EE /* DBAccountInfo.m */; };
