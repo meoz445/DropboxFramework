@@ -29,8 +29,12 @@
 - (void) dealloc
 {
     [self setRestClient:nil];
-    [window release];
-    [self setWindow:nil];
+    if (window)
+    {
+        [window close];
+        [window release];
+        [self setWindow:nil];
+    }
     
     [super dealloc];
 }
