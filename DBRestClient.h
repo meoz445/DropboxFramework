@@ -26,6 +26,8 @@ extern NSString* kDBProtocolHTTPS;
     id<DBRestClientDelegate> delegate;
 }
 
++ (id)restClientWithSharedSession;
+
 - (id)initWithSession:(DBSession*)session;
 
 /* New developers should not use this method, and instead just use initWithSession: */

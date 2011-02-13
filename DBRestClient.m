@@ -39,6 +39,11 @@ NSString* kDBProtocolHTTPS = @"https";
 
 @implementation DBRestClient
 
++ (id)restClientWithSharedSession
+{
+    return [[[self alloc] initWithSession:[DBSession sharedSession]] autorelease];
+}
+
 - (id)initWithSession:(DBSession*)aSession {
     return [self initWithSession:aSession root:@"dropbox"];
 }
